@@ -1,6 +1,9 @@
 import random
 
-print ("Welcome in Rock Paper Scisors")
+print("================================")
+print("Welcome to Rock, Paper, Scissors")
+print("================================")
+
 user_input = input("chooce bettwen Rock(r), Paper(p), Scisosre(s)")
 computer_r = random.randint(1,3)
 
@@ -38,6 +41,13 @@ else :
         print ("I chose " + computer + " I lose")
     else:
         print ("I chose " + computer + " I won")
+    
+print("")        
+print("**********************")
+print("THANK YOU FOR PLAYING!")
+print("**********************")
+
+
 
 
 
